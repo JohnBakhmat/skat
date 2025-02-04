@@ -12,5 +12,5 @@
 
 html,
 body {
-    @apply font-open-sans m-0 size-full;
+    @apply font-open-sans m-0 size-full bg-black text-white select-none font-extralight px-10;
 }
