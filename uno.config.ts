@@ -8,5 +8,26 @@ export default defineConfig({
     transformerVariantGroup(),
     transformerCompileClass(),
     transformerDirectives()
-  ]
+  ],
+  theme: {
+    animation: {
+      keyframes: {
+        wiggle: "{0%,100% {transform:rotate(-5deg)} 50% {transform:rotate(5deg)}}",
+      },
+      durations: {
+        wiggle: "400ms",
+      },
+      timingFns: {
+        wiggle: "ease-in-out",
+      },
+      properties: {
+        wiggle: {
+          'transform-origin': 'center bottom',
+        }
+      },
+      counts: {
+        wiggle: "infinite",
+      },
+    }
+  }
 })
