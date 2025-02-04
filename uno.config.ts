@@ -10,6 +10,9 @@ export default defineConfig({
     transformerDirectives()
   ],
   theme: {
+    colors: {
+      accent: "var(--accent-color)",
+    },
     animation: {
       keyframes: {
         wiggle: "{0%,100% {transform:rotate(-5deg)} 50% {transform:rotate(5deg)}}",

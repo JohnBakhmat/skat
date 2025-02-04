@@ -1,0 +1,19 @@
+---
+
+interface Props {
+    name: string;
+    job: string;
+    image: string;
+}
+const props = Astro.props;
+---
+
+<div class="flex flex-col items-center px-5 gap-4">
+    <div
+        class="size-52 rounded-full relative side-border mb-10"
+    >
+        <img src={props.image} alt={props.name} class="rounded-full"/>
+    </div>
+    <h2 class="text-(accent 5xl center)">{props.name}</h2>
+    <p class="text-(4xl center)">{props.job}</p>
+</div>
