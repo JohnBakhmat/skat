@@ -15,7 +15,7 @@
 
 html,
 body {
-	@apply font-open-sans m-0 size-full bg-black text-white select-none font-light px-10;
+	@apply font-open-sans m-0 size-full bg-black text-white select-none font-light px-10 snap-y snap-proximity scroll-smooth bg-[#211C63];
 }
 
 .side-border::after {
@@ -27,4 +27,8 @@ body {
 	background: transparent;
 	border: 2px solid var(--accent-color);
 	clip-path: polygon(100% 0, 66% 0, 66% 100%, 100% 100%);
+}
+
+section {
+	@apply snap-center;
 }
