@@ -15,7 +15,7 @@
 
 html,
 body {
-    @apply font-open-sans m-0 size-full bg-black text-white select-none font-light px-10 snap-y snap-proximity scroll-smooth bg-[#211C63];
+    @apply font-open-sans m-0 size-full text-white select-none font-light px-10 snap-y snap-mandatory scroll-smooth;
 }
 
 .side-border::after {
