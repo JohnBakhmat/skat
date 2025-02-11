@@ -1,29 +1,36 @@
 ---
 ---
 
-<section class="h-screen w-full text-white grid grid-cols-[3fr_4fr]">
-        <div class="w-fit h-full grid grid-rows-[1fr_auto_1fr]">
+<section class="min-h-screen w-full text-white grid place-items-center">
+<div class="w-full grid md:grid-(cols-[3fr_4fr] rows-1) grid-(cols-1) gap-y-10">
+        <div class="w-full md:w-fit h-full grid grid-cols-1 md:grid-rows-[1fr_auto_1fr]">
             <div class="self-end w-fit">
-                <div class="border-(2 white) p-(x-10 y-4) rounded-full group text-5xl flex flex-row">
+                <div class="border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl">
                     <p>Почему<div class="w-fit group-hover:animate-wiggle">?</div></p>
                 </div>
             </div>
 
             <div>
-                <h1 class="font-logo text-[175px] leading-none">skat.</h1>
+                <h1 class="font-logo md:text-[175px] text-[95px] leading-none">skat.</h1>
             </div>
 
             <div/>
         </div>
 
         <div class="flex flex-col justify-center">
-            <div class="grid grid-cols-[auto_1fr] items-center gap-y-10 gap-x-[64px] [&>li]:(text-white items-center gap-x-10) [&_p]:(text-[30px] leading-none font-extralight whitespace-pre-line) [&_.index]:(text-[150px])">
-                <p class="index font-logo">01</p>
+            <!-- <div class="grid grid-cols-[auto_1fr] items-center
+            gap-(y-(md:10 5) x-(md:[64px] [42px]))
+            [&>li]:(text-white items-center gap-x-(md:10 5))
+            [&_p]:(text-[30px] leading-none font-extralight
+            whitespace-pre-line) [&_.index]:(text-(md:[150px] [75px]))"> -->
+            <div class="grid grid-cols-[auto_1fr] items-center gap-y-5 gap-x-[42px] text-white text-[20px] md:text-[30px] leading-none font-extralight whitespace-pre-line">
+                <p class="text-[75px] md:text-[150px] font-logo">01</p>
                 <p>С нами можно быть спокойным за проект</p>
-                <p class="index font-logo">02</p>
+                <p class="text-[75px] md:text-[150px] font-logo">02</p>
                 <p>{"Мы заряжаем своей\nэнергией всех вокруг"}</p>
-                <p class="index font-logo">03</p>
+                <p class="text-[75px] md:text-[150px] font-logo">03</p>
                 <p>{"Мы знаем все течения\nи куда нужно плыть"}</p>
             </div>
+        </div>
         </div>
 </section>
