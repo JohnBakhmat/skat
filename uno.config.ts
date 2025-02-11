@@ -1,8 +1,8 @@
 import {
 	defineConfig,
-	transformerDirectives,
 	presetUno,
 	transformerCompileClass,
+	transformerDirectives,
 	transformerVariantGroup,
 } from "unocss";
 
@@ -16,10 +16,12 @@ export default defineConfig({
 	theme: {
 		colors: {
 			accent: "var(--accent-color)",
+			secondary: "var(--secondary-color)",
 		},
 		animation: {
 			keyframes: {
-				wiggle: "{0%,100% {transform:rotate(-5deg)} 50% {transform:rotate(5deg)}}",
+				wiggle:
+					"{0%,100% {transform:rotate(-5deg)} 50% {transform:rotate(5deg)}}",
 			},
 			durations: {
 				wiggle: "400ms",
