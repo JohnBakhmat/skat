@@ -1,0 +1,32 @@
+---
+import CaseImage from "./case-image.astro";
+---
+
+<section class="min-h-screen w-full text-white grid place-items-center">
+  <div
+    class="w-full max-h-screen py-10 gap-10 grid grid-cols-[3fr_4fr_auto] grid-rows-2"
+  >
+    <div class="flex flex-col justify-between">
+      <div
+        class="w-fit border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl"
+      >
+        <p>Кейсы</p>
+      </div>
+
+      <h1 class="uppercase text-4xl md:text-8xl font-light">
+        Спартакиада моспром
+      </h1>
+    </div>
+    <CaseImage />
+
+    <div class="text-8xl text-vertical">
+      20<span class="text-accent">23</span>
+    </div>
+
+    <CaseImage />
+    <div class="grid grid-cols-[2fr_1fr] gap-10">
+      <CaseImage />
+      <CaseImage />
+    </div>
+  </div>
+</section>

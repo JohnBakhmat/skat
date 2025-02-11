@@ -44,3 +44,7 @@ body {
 section {
   @apply snap-center;
 }
+
+.text-vertical {
+  writing-mode: vertical-lr;
+}
