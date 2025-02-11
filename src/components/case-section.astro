@@ -1,5 +1,6 @@
 ---
 import CaseImage from "./case-image.astro";
+import CityBlock from "./city-block.astro";
 ---
 
 <section class="min-h-screen w-full text-white grid place-items-center">
@@ -23,7 +24,17 @@ import CaseImage from "./case-image.astro";
 			20<span class="text-accent">24</span>
 		</div>
 
-		<div>123</div>
+		<CityBlock
+			cities={[
+				"Санкт-Петербург",
+				"Ижевск",
+				"Новокузнецк",
+				"Астрахань",
+				"Ставраполь",
+				"Тольятти",
+				"Ростов-на-Дону",
+			]}
+		/>
 		<div class="grid grid-cols-[2fr_1fr] gap-10">
 			<CaseImage />
 			<CaseImage />
@@ -55,7 +66,16 @@ import CaseImage from "./case-image.astro";
 			20<span class="text-accent">23</span>
 		</div>
 
-		<div>123</div>
+		<CityBlock
+			cities={[
+				"Нижний Новгород",
+				"Ростов-на-Дону",
+				"Екатеринбург",
+				"Казань",
+				"Краснодар",
+			]}
+		/>
+
 		<div class="grid grid-cols-[2fr_1fr] gap-10">
 			<CaseImage />
 			<CaseImage />
