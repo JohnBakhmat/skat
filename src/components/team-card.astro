@@ -8,7 +8,9 @@ const props = Astro.props;
 ---
 
 <div class="flex flex-col items-center md:px-5 md:gap-4 group">
-  <div class="size-32 md:size-64 rounded-full relative side-border md:mb-10">
+  <div
+    class="size-32 md:size-64 rounded-full relative side-border mb-5 md:mb-10"
+  >
     <img
       src={props.image}
       alt={props.name}

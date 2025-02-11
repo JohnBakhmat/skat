@@ -2,32 +2,32 @@
 import TeamCard from "./team-card.astro";
 ---
 
-<section
-  class="min-h-screen w-full grid md:(grid-cols-[52%_48%] gap-x-20) items-center"
->
-  <div
-    class="bg-white rounded-[46px] text-black grid grid-cols-2 h-fit md:py-12"
-  >
-    <TeamCard
-      name="Захар Лях"
-      job="Генеральный директор"
-      image="https://johnbakhmat.dev/johnbakhmat-128x128.webp"
-    />
-    <TeamCard
-      name="Александр Силкин"
-      job="Директор по развитию"
-      image="https://johnbakhmat.dev/johnbakhmat-128x128.webp"
-    />
-  </div>
-
-  <div>
-    <p class="font-logo text-[150px] md:text-[300px] leading-[1]">100+</p>
-    <p
-      class="text-[23px] md:text-[46px] font-extralight md:pr-20 whitespace-pre-line"
+<section class="min-h-screen w-full grid place-items-center">
+  <div class="grid md:(grid-cols-[52%_48%] gap-x-20) items-center">
+    <div
+      class="bg-white rounded-[46px] text-black grid grid-cols-2 h-fit py-6 md:py-12"
     >
-      {
-        "реализованных проектов\nв качестве руководителей\nс бюджетом от 1 до 120 млн (P)"
-      }
-    </p>
+      <TeamCard
+        name="Захар Лях"
+        job="Генеральный директор"
+        image="https://johnbakhmat.dev/johnbakhmat-128x128.webp"
+      />
+      <TeamCard
+        name="Александр Силкин"
+        job="Директор по развитию"
+        image="https://johnbakhmat.dev/johnbakhmat-128x128.webp"
+      />
+    </div>
+
+    <div class="max-md:text-center">
+      <p class="font-logo text-[150px] md:text-[300px] leading-[1]">100+</p>
+      <p
+        class="text-[23px] md:text-[46px] font-extralight md:pr-20 whitespace-pre-line"
+      >
+        {
+          "реализованных проектов\nв качестве руководителей\nс бюджетом от 1 до 120 млн (P)"
+        }
+      </p>
+    </div>
   </div>
 </section>
