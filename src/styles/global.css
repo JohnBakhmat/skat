@@ -1,50 +1,50 @@
 :root {
-  --accent-color: #7c7aea;
+	--accent-color: #7c7aea;
 }
 
 .font-logo {
-  font-family: "Gruppo", serif;
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Gruppo", serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .font-open-sans {
-  font-family: "Open Sans", serif;
-  font-optical-sizing: auto;
+	font-family: "Open Sans", serif;
+	font-optical-sizing: auto;
 }
 
 html,
 body {
-  @apply font-open-sans m-0 size-full text-white select-none font-light px-2 md:px-10 snap-y snap-mandatory scroll-smooth;
+	@apply font-open-sans m-0 size-full text-white select-none font-light px-2 md:px-10 snap-y snap-mandatory scroll-smooth;
 }
 
 body {
-  background-image: url("/background.png");
-  background-attachment: fixed;
-  background-size: cover;
+	background-image: url("/background.png");
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 .side-border::after {
-  content: "";
-  position: absolute;
-  inset: -30px;
-  aspect-ratio: 1;
-  border-radius: 100%;
-  background: transparent;
-  border: 2px solid var(--accent-color);
-  clip-path: polygon(100% 0, 66% 0, 66% 100%, 100% 100%);
+	content: "";
+	position: absolute;
+	inset: -30px;
+	aspect-ratio: 1;
+	border-radius: 100%;
+	background: transparent;
+	border: 2px solid var(--accent-color);
+	clip-path: polygon(100% 0, 66% 0, 66% 100%, 100% 100%);
 }
 
 @media (max-width: 768px) {
-  .side-border::after {
-    inset: -15px;
-  }
+	.side-border::after {
+		inset: -15px;
+	}
 }
 
 section {
-  @apply snap-center;
+	@apply snap-center;
 }
 
 .text-vertical {
-  writing-mode: vertical-lr;
+	writing-mode: vertical-lr;
 }

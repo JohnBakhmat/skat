@@ -1,15 +1,15 @@
 ---
 interface Props {
-  src?: string;
+	src?: string;
 }
 
 const { src } = Astro.props;
 ---
 
 <div class="rounded-[50px] overflow-hidden">
-  <img
-    class="w-full h-full object-cover"
-    src={src ??
-      "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"}
-  />
+	<img
+		class="w-full h-full object-cover"
+		src={src ??
+			"https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"}
+	/>
 </div>
