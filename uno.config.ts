@@ -1,13 +1,17 @@
-import { defineConfig, transformerDirectives, presetUno, transformerCompileClass, transformerVariantGroup } from 'unocss'
+import {
+  defineConfig,
+  transformerDirectives,
+  presetUno,
+  transformerCompileClass,
+  transformerVariantGroup,
+} from "unocss";
 
 export default defineConfig({
-  presets: [
-    presetUno()
-  ],
+  presets: [presetUno()],
   transformers: [
     transformerVariantGroup(),
     transformerCompileClass(),
-    transformerDirectives()
+    transformerDirectives(),
   ],
   theme: {
     colors: {
@@ -15,7 +19,8 @@ export default defineConfig({
     },
     animation: {
       keyframes: {
-        wiggle: "{0%,100% {transform:rotate(-5deg)} 50% {transform:rotate(5deg)}}",
+        wiggle:
+          "{0%,100% {transform:rotate(-5deg)} 50% {transform:rotate(5deg)}}",
       },
       durations: {
         wiggle: "400ms",
@@ -25,12 +30,12 @@ export default defineConfig({
       },
       properties: {
         wiggle: {
-          'transform-origin': 'center bottom',
-        }
+          "transform-origin": "center bottom",
+        },
       },
       counts: {
         wiggle: "infinite",
       },
-    }
-  }
-})
+    },
+  },
+});

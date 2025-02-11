@@ -13,6 +13,8 @@
     "astro": "^5.2.4"
   },
   "devDependencies": {
+    "prettier": "^3.5.0",
+    "prettier-plugin-astro": "^0.14.1",
     "unocss": "^65.4.3"
   }
 }
