@@ -22,8 +22,15 @@ export function CaseSection() {
 					<section className="w-full text-white grid place-items-center">
 						<div className="w-full max-h-screen py-10 gap-5 md:gap-10 grid grid-cols-[1fr_auto] grid-rows-[auto_1fr_1fr_1fr] md:grid-cols-[3fr_4fr_auto] md:grid-rows-2">
 							<div className="flex flex-col justify-between gap-5">
-								<div className="w-fit border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl">
-									<p>Кейсы</p>
+								<div className="flex flex-row items-center gap-5">
+									<div className="w-fit border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl">
+										<p>Кейсы</p>
+									</div>
+									<img
+										src="/alfa.svg"
+										alt="Альфа Банк"
+										className="w-10 md:w-10"
+									/>
 								</div>
 
 								<h1 className="uppercase text-3xl md:text-7xl font-light">
@@ -65,8 +72,15 @@ export function CaseSection() {
 					<section className="w-full text-white grid place-items-center">
 						<div className="w-full max-h-screen py-10 gap-5 md:gap-10 grid grid-cols-[1fr_auto] grid-rows-[auto_1fr_1fr_1fr] md:grid-cols-[3fr_4fr_auto] md:grid-rows-2">
 							<div className="flex flex-col justify-between gap-5">
-								<div className="w-fit border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl">
-									<p>Кейсы</p>
+								<div className="flex flex-row items-center gap-5">
+									<div className="w-fit border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl">
+										<p>Кейсы</p>
+									</div>
+									<img
+										src="/yandex-market.svg"
+										alt="Yandex Market"
+										className="w-10 md:w-15"
+									/>
 								</div>
 
 								<div className="space-y-2 md:space-y-5">
@@ -109,8 +123,15 @@ export function CaseSection() {
 					<section className=" w-full text-white grid place-items-center">
 						<div className="w-full max-h-screen py-10 gap-5 md:gap-10 grid grid-cols-[1fr_auto] grid-rows-[auto_1fr_1fr_1fr] md:grid-cols-[3fr_4fr_auto] md:grid-rows-2">
 							<div className="flex flex-col justify-between gap-5">
-								<div className="w-fit border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl">
-									<p>Кейсы</p>
+								<div className="flex flex-row items-center gap-5">
+									<div className="w-fit border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl">
+										<p>Кейсы</p>
+									</div>
+									<img
+										src="/mosprom.svg"
+										alt="Моспром"
+										className="w-10 md:w-15"
+									/>
 								</div>
 
 								<h1 className="uppercase text-4xl md:text-8xl font-light">
@@ -143,8 +164,15 @@ export function CaseSection() {
 					<section className=" w-full text-white grid place-items-center">
 						<div className="w-full max-h-screen py-10 gap-5 md:gap-10 grid grid-cols-[1fr_auto] grid-rows-[auto_1fr_1fr_1fr] md:grid-cols-[3fr_4fr_auto] md:grid-rows-2">
 							<div className="flex flex-col justify-between gap-5">
-								<div className="w-fit border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl">
-									<p>Кейсы</p>
+								<div className="flex flex-row items-center gap-5">
+									<div className="w-fit border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl">
+										<p>Кейсы</p>
+									</div>
+									<img
+										src="/smartway.svg"
+										alt="smartway"
+										className="w-10 md:w-15"
+									/>
 								</div>
 
 								<div>
@@ -180,8 +208,11 @@ export function CaseSection() {
 					<section className=" w-full text-white grid place-items-center">
 						<div className="w-full max-h-screen py-10 gap-5 md:gap-10 grid grid-cols-[1fr_auto] grid-rows-[auto_1fr_1fr_1fr] md:grid-cols-[3fr_4fr_auto] md:grid-rows-2">
 							<div className="flex flex-col justify-between">
-								<div className="w-fit border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl">
-									<p>Кейсы</p>
+								<div className="flex flex-row items-center gap-5">
+									<div className="w-fit border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl">
+										<p>Кейсы</p>
+									</div>
+									<img src="/tbank.svg" alt="T-bank" className="w-10 md:w-15" />
 								</div>
 
 								<div>
@@ -200,7 +231,7 @@ export function CaseSection() {
 								/>
 							</div>
 
-							<div className="md:(text-8xl) text-4xl text-vertical max-md:order-1">
+							<div className="md:(text-6xl) text-4xl text-vertical max-md:order-1">
 								20<span className="text-accent">22</span>- 20
 								<span className="text-accent">23</span>
 							</div>
@@ -226,8 +257,15 @@ export function CaseSection() {
 					<section className=" w-full text-white grid place-items-center">
 						<div className="w-full max-h-screen py-10 gap-5 md:gap-10 grid grid-cols-[1fr_auto] grid-rows-[auto_1fr_1fr_1fr] md:grid-cols-[3fr_4fr_auto] md:grid-rows-2">
 							<div className="flex flex-col justify-between">
-								<div className="w-fit border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl">
-									<p>Кейсы</p>
+								<div className="flex flex-row items-center gap-5">
+									<div className="w-fit border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl">
+										<p>Кейсы</p>
+									</div>
+									<img
+										src="/yandex-scale.svg"
+										alt="yandex-scale-logo"
+										className="w-10 md:w-15"
+									/>
 								</div>
 
 								<div>
@@ -264,8 +302,15 @@ export function CaseSection() {
 					<section className=" w-full text-white grid place-items-center">
 						<div className="w-full max-h-screen py-10 gap-5 md:gap-10 grid grid-cols-[1fr_auto] grid-rows-[auto_1fr_1fr_1fr] md:grid-cols-[3fr_4fr_auto] md:grid-rows-2">
 							<div className="flex flex-col justify-between gap-5">
-								<div className="w-fit border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl">
-									<p>Кейсы</p>
+								<div className="flex flex-row items-center gap-5">
+									<div className="w-fit border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl">
+										<p>Кейсы</p>
+									</div>
+									<img
+										src="/atlants.svg"
+										alt="атланты"
+										className="w-10 md:w-15"
+									/>
 								</div>
 
 								<div>
