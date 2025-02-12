@@ -1,5 +1,5 @@
 ---
-import CaseSection from "../components/case-section.astro";
+import { CaseSection } from "../components/case-section";
 import ClientSection from "../components/client-section.astro";
 import ContactSection from "../components/contact-section.astro";
 import FriendsSection from "../components/friends-section.astro";
@@ -15,7 +15,7 @@ import Layout from "../layouts/Layout.astro";
 	<WhoSection />
 	<WhySection />
 	<TeamSection />
-	<CaseSection />
+	<CaseSection client:visible/>
 	<FriendsSection />
 	<ClientSection />
 	<ContactSection />
