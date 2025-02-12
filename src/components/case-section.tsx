@@ -10,7 +10,7 @@ import "swiper/css/scrollbar";
 
 export function CaseSection() {
 	return (
-		<section className="min-h-screen">
+		<section className="min-h-screen" id="cases">
 			<Swiper
 				modules={[Navigation, Pagination, Scrollbar, A11y]}
 				spaceBetween={50}
