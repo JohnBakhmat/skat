@@ -13,11 +13,11 @@ export default function WhyBlock() {
 
 	useEffect(() => {
 		if (!isManual) {
-			const timeout = setInterval(() => {
+			const interval = setInterval(() => {
 				setLastHovered((prev) => (prev + 1) % 3);
 			}, 2000);
 
-			return () => clearTimeout(timeout);
+			return () => clearInterval(interval);
 		}
 	}, [isManual]);
 
