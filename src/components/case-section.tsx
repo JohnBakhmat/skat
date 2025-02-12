@@ -10,19 +10,19 @@ import "swiper/css/scrollbar";
 
 export function CaseSection() {
 	return (
-		<section className="max-md:hidden min-h-screen">
+		<section className="min-h-screen">
 			<Swiper
 				modules={[Navigation, Pagination, Scrollbar, A11y]}
 				spaceBetween={50}
 				slidesPerView={1}
 				pagination={{ clickable: true, type: "bullets" }}
 				navigation
-				className="max-h-screen"
+				className="h-screen"
 			>
 				<SwiperSlide>
 					<section className="w-full text-white grid place-items-center">
-						<div className="w-full max-h-screen py-10 gap-10 grid grid-cols-[3fr_4fr_auto] grid-rows-2">
-							<div className="flex flex-col justify-between">
+						<div className="w-full max-h-screen py-5 md:py-10 gap-5 md:gap-10 grid grid-cols-[1fr_auto] grid-rows-[auto_1fr_1fr_1fr] md:grid-cols-[3fr_4fr_auto] md:grid-rows-2">
+							<div className="flex flex-col justify-between gap-5">
 								<div className="w-fit border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl">
 									<p>Кейсы</p>
 								</div>
@@ -31,26 +31,34 @@ export function CaseSection() {
 									Альфа конфа практика
 								</h1>
 							</div>
-							<CaseImage src="/alfa-conf-2.webp" />
 
-							<div className="text-8xl text-vertical">
+							<div className="max-md:order-2 max-md:col-span-2">
+								<CaseImage src="/alfa-conf-2.webp" />
+							</div>
+
+							<div className="md:(text-8xl) text-4xl text-vertical max-md:order-1">
 								20<span className="text-accent">24</span>
 							</div>
 
-							<CityBlock
-								cities={[
-									"Санкт-Петербург",
-									"Ижевск",
-									"Новокузнецк",
-									"Астрахань",
-									"Ставраполь",
-									"Тольятти",
-									"Ростов-на-Дону",
-								]}
-							/>
-							<div className="grid grid-cols-[2fr_1fr] gap-10">
+							<div className="max-md:hidden">
+								<CityBlock
+									cities={[
+										"Санкт-Петербург",
+										"Ижевск",
+										"Новокузнецк",
+										"Астрахань",
+										"Ставраполь",
+										"Тольятти",
+										"Ростов-на-Дону",
+									]}
+								/>
+							</div>
+							<div className="max-md:order-3 max-md:col-span-2 max-md:max-h-[50vh] gap-5 grid grid-rows-[auto_auto] grid-cols-1 md:grid-cols-[2fr_1fr] md:gap-10">
 								<CaseImage src="/alfa-conf-3.webp" />
-								<CaseImage src="/alfa-conf-4.webp" />
+								<CaseImage
+									src="/alfa-conf-4.webp"
+									imageClassName="object-[50%_30%]"
+								/>
 							</div>
 						</div>
 					</section>
@@ -68,9 +76,7 @@ export function CaseSection() {
 									<h1 className="uppercase text-3xl md:text-7xl font-light">
 										Яндекс маркет «15 минут»
 									</h1>
-									<h2 className="text-5xl text-secondary">
-										Летняя интеграция
-									</h2>
+									<h2 className="text-5xl text-secondary">Летняя интеграция</h2>
 								</div>
 							</div>
 							<CaseImage src="/yandex-market-1.webp" />
@@ -136,9 +142,7 @@ export function CaseSection() {
 									<h1 className="uppercase text-4xl md:text-8xl font-light">
 										SMARTWAY
 									</h1>
-									<h2 className="text-5xl text-secondary">
-										Летний корпоратив
-									</h2>
+									<h2 className="text-5xl text-secondary">Летний корпоратив</h2>
 								</div>
 							</div>
 							<CaseImage src="/smartway-1.webp" />
@@ -168,9 +172,7 @@ export function CaseSection() {
 									<h1 className="uppercase text-4xl md:text-8xl font-light">
 										IT-Каток
 									</h1>
-									<h2 className="text-5xl text-secondary">
-										Серия мероприятий
-									</h2>
+									<h2 className="text-5xl text-secondary">Серия мероприятий</h2>
 								</div>
 							</div>
 							<CaseImage src="/it-katok-1.webp" />
@@ -233,9 +235,7 @@ export function CaseSection() {
 									<h1 className="uppercase text-4xl md:text-8xl font-light">
 										Атланты
 									</h1>
-									<h2 className="text-5xl text-secondary">
-										Бизнес-форум
-									</h2>
+									<h2 className="text-5xl text-secondary">Бизнес-форум</h2>
 								</div>
 							</div>
 							<CaseImage src="/atlants-1.webp" />

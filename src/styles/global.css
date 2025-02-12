@@ -1,6 +1,7 @@
 :root {
 	--accent-color: #7c7aea;
 	--secondary-color: #b6b2d4;
+	@apply bg-[#3D24B2];
 }
 .font-logo {
 	font-family: "Gruppo", serif;
@@ -35,16 +36,20 @@ body {
 	clip-path: polygon(100% 0, 66% 0, 66% 100%, 100% 100%);
 }
 
+.text-vertical {
+	writing-mode: vertical-lr;
+}
+
 @media (max-width: 768px) {
 	.side-border::after {
 		inset: -15px;
+	}
+
+	.text-vertical {
+		/* writing-mode: horizontal-tb; */
 	}
 }
 
 section {
 	@apply snap-center;
-}
-
-.text-vertical {
-	writing-mode: vertical-lr;
 }
