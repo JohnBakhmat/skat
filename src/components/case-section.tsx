@@ -17,11 +17,10 @@ export function CaseSection() {
 				slidesPerView={1}
 				pagination={{ clickable: true, type: "bullets" }}
 				navigation
-				className="h-screen"
 			>
 				<SwiperSlide>
 					<section className="w-full text-white grid place-items-center">
-						<div className="w-full max-h-screen py-5 md:py-10 gap-5 md:gap-10 grid grid-cols-[1fr_auto] grid-rows-[auto_1fr_1fr_1fr] md:grid-cols-[3fr_4fr_auto] md:grid-rows-2">
+						<div className="w-full max-h-screen py-10 gap-5 md:gap-10 grid grid-cols-[1fr_auto] grid-rows-[auto_1fr_1fr_1fr] md:grid-cols-[3fr_4fr_auto] md:grid-rows-2">
 							<div className="flex flex-col justify-between gap-5">
 								<div className="w-fit border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl">
 									<p>Кейсы</p>
@@ -64,7 +63,7 @@ export function CaseSection() {
 
 				<SwiperSlide>
 					<section className="w-full text-white grid place-items-center">
-						<div className="w-full max-h-screen grid grid-cols-[1fr_auto] py-5 gap-5 md:(py-10 gap-10 grid-cols-[3fr_4fr_auto] grid-rows-2)">
+						<div className="w-full max-h-screen py-10 gap-5 md:gap-10 grid grid-cols-[1fr_auto] grid-rows-[auto_1fr_1fr_1fr] md:grid-cols-[3fr_4fr_auto] md:grid-rows-2">
 							<div className="flex flex-col justify-between gap-5">
 								<div className="w-fit border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl">
 									<p>Кейсы</p>
@@ -108,7 +107,7 @@ export function CaseSection() {
 
 				<SwiperSlide>
 					<section className=" w-full text-white grid place-items-center">
-						<div className="w-full max-h-screen grid py-5 gap-5 grid-cols-[1fr_auto] md:(py-10 gap-10 grid-cols-[3fr_4fr_auto] grid-rows-2)">
+						<div className="w-full max-h-screen py-10 gap-5 md:gap-10 grid grid-cols-[1fr_auto] grid-rows-[auto_1fr_1fr_1fr] md:grid-cols-[3fr_4fr_auto] md:grid-rows-2">
 							<div className="flex flex-col justify-between gap-5">
 								<div className="w-fit border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl">
 									<p>Кейсы</p>
@@ -142,7 +141,7 @@ export function CaseSection() {
 
 				<SwiperSlide>
 					<section className=" w-full text-white grid place-items-center">
-						<div className="w-full max-h-screen grid py-5 gap-5 grid-cols-[1fr_auto] md:(py-10 gap-10 grid-cols-[3fr_4fr_auto] grid-rows-2)">
+						<div className="w-full max-h-screen py-10 gap-5 md:gap-10 grid grid-cols-[1fr_auto] grid-rows-[auto_1fr_1fr_1fr] md:grid-cols-[3fr_4fr_auto] md:grid-rows-2">
 							<div className="flex flex-col justify-between gap-5">
 								<div className="w-fit border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl">
 									<p>Кейсы</p>
@@ -157,10 +156,9 @@ export function CaseSection() {
 									</h2>
 								</div>
 							</div>
-							<CaseImage
-								src="/smartway-1.webp"
-								className="max-md:order-2 max-md:col-span-2"
-							/>
+							<div className="max-md:order-2 max-md:col-span-2">
+								<CaseImage src="/smartway-1.webp" />
+							</div>
 
 							<div className="md:(text-8xl) text-4xl text-vertical max-md:order-1">
 								20<span className="text-accent">23</span>
@@ -180,7 +178,7 @@ export function CaseSection() {
 
 				<SwiperSlide>
 					<section className=" w-full text-white grid place-items-center">
-						<div className="w-full max-h-screen grid py-5 gap-5 grid-cols-[1fr_auto] md:(py-10 gap-10 grid-cols-[3fr_4fr_auto] grid-rows-2)">
+						<div className="w-full max-h-screen py-10 gap-5 md:gap-10 grid grid-cols-[1fr_auto] grid-rows-[auto_1fr_1fr_1fr] md:grid-cols-[3fr_4fr_auto] md:grid-rows-2">
 							<div className="flex flex-col justify-between">
 								<div className="w-fit border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl">
 									<p>Кейсы</p>
@@ -195,10 +193,12 @@ export function CaseSection() {
 									</h2>
 								</div>
 							</div>
-							<CaseImage
-								src="/it-katok-1.webp"
-								className="max-md:order-2 max-md:col-span-2"
-							/>
+							<div className="max-md:order-2 max-md:col-span-2">
+								<CaseImage
+									src="/it-katok-1.webp"
+									className="max-md:order-2 max-md:col-span-2"
+								/>
+							</div>
 
 							<div className="md:(text-8xl) text-4xl text-vertical max-md:order-1">
 								20<span className="text-accent">22</span>- 20
@@ -224,7 +224,7 @@ export function CaseSection() {
 
 				<SwiperSlide>
 					<section className=" w-full text-white grid place-items-center">
-						<div className="w-full max-h-screen grid py-5 gap-5 grid-cols-[1fr_auto] md:(py-10 gap-10 grid-cols-[3fr_4fr_auto] grid-rows-2)">
+						<div className="w-full max-h-screen py-10 gap-5 md:gap-10 grid grid-cols-[1fr_auto] grid-rows-[auto_1fr_1fr_1fr] md:grid-cols-[3fr_4fr_auto] md:grid-rows-2">
 							<div className="flex flex-col justify-between">
 								<div className="w-fit border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl">
 									<p>Кейсы</p>
@@ -239,10 +239,10 @@ export function CaseSection() {
 									</h2>
 								</div>
 							</div>
-							<CaseImage
-								src="/yandex-scale-2.webp"
-								className="max-md:order-2 max-md:col-span-2"
-							/>
+
+							<div className="max-md:order-2 max-md:col-span-2">
+								<CaseImage src="/yandex-scale-2.webp" />
+							</div>
 
 							<div className="md:(text-8xl) text-4xl text-vertical max-md:order-1">
 								20<span className="text-accent">22</span>
@@ -262,7 +262,7 @@ export function CaseSection() {
 
 				<SwiperSlide>
 					<section className=" w-full text-white grid place-items-center">
-						<div className="w-full max-h-screen grid py-5 gap-5 grid-cols-[1fr_auto] md:(py-10 gap-10 grid-cols-[3fr_4fr_auto] grid-rows-2)">
+						<div className="w-full max-h-screen py-10 gap-5 md:gap-10 grid grid-cols-[1fr_auto] grid-rows-[auto_1fr_1fr_1fr] md:grid-cols-[3fr_4fr_auto] md:grid-rows-2">
 							<div className="flex flex-col justify-between gap-5">
 								<div className="w-fit border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl">
 									<p>Кейсы</p>
