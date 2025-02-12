@@ -17,7 +17,10 @@ export default function WhyItem({ idx, text, isActive, onHover }: Props) {
 			>
 				{idx}
 			</p>
-			<p data-active={!!isActive} className="data-[active=true]:text-black">
+			<p
+				data-active={!!isActive}
+				className="data-[active=true]:text-black"
+			>
 				{text}
 			</p>
 		</div>

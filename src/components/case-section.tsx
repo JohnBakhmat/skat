@@ -68,7 +68,9 @@ export function CaseSection() {
 									<h1 className="uppercase text-3xl md:text-7xl font-light">
 										Яндекс маркет «15 минут»
 									</h1>
-									<h2 className="text-5xl text-secondary">Летняя интеграция</h2>
+									<h2 className="text-5xl text-secondary">
+										Летняя интеграция
+									</h2>
 								</div>
 							</div>
 							<CaseImage src="/yandex-market-1.webp" />
@@ -134,7 +136,9 @@ export function CaseSection() {
 									<h1 className="uppercase text-4xl md:text-8xl font-light">
 										SMARTWAY
 									</h1>
-									<h2 className="text-5xl text-secondary">Летний корпоратив</h2>
+									<h2 className="text-5xl text-secondary">
+										Летний корпоратив
+									</h2>
 								</div>
 							</div>
 							<CaseImage src="/smartway-1.webp" />
@@ -164,7 +168,9 @@ export function CaseSection() {
 									<h1 className="uppercase text-4xl md:text-8xl font-light">
 										IT-Каток
 									</h1>
-									<h2 className="text-5xl text-secondary">Серия мероприятий</h2>
+									<h2 className="text-5xl text-secondary">
+										Серия мероприятий
+									</h2>
 								</div>
 							</div>
 							<CaseImage src="/it-katok-1.webp" />
@@ -227,7 +233,9 @@ export function CaseSection() {
 									<h1 className="uppercase text-4xl md:text-8xl font-light">
 										Атланты
 									</h1>
-									<h2 className="text-5xl text-secondary">Бизнес-форум</h2>
+									<h2 className="text-5xl text-secondary">
+										Бизнес-форум
+									</h2>
 								</div>
 							</div>
 							<CaseImage src="/atlants-1.webp" />

@@ -20,8 +20,7 @@ export default defineConfig({
 		},
 		animation: {
 			keyframes: {
-				wiggle:
-					"{0%,100% {transform:rotate(-5deg)} 50% {transform:rotate(5deg)}}",
+				wiggle: "{0%,100% {transform:rotate(-5deg)} 50% {transform:rotate(5deg)}}",
 			},
 			durations: {
 				wiggle: "400ms",

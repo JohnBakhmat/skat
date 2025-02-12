@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import "@unocss/reset/tailwind-compat.css";
+import { Image } from "astro:assets";
 ---
 
 <!doctype html>
@@ -23,6 +24,13 @@ import "@unocss/reset/tailwind-compat.css";
 		<title>Astro Basics</title>
 	</head>
 	<body>
+		<Image
+			width={2040}
+			height={1154}
+			src="/background.png"
+			alt="background"
+			class="fixed inset-0 w-full h-full object-cover -z-100"
+		/>
 		<slot />
 	</body>
 </html>
