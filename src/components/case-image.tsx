@@ -5,7 +5,9 @@ interface Props {
 }
 
 export const CaseImage = ({ src, className, imageClassName }: Props) => (
-	<div className={`rounded-[50px] overflow-hidden shadow-lg ${className}`}>
+	<div
+		className={`rounded-[50px] overflow-hidden shadow-lg h-full w-full ${className}`}
+	>
 		<img
 			className={`w-full h-full object-cover ${imageClassName}`}
 			alt="case"

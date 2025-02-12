@@ -4,7 +4,7 @@ interface Props {
 }
 
 export const CityBlock = ({ cities }: Props) => (
-	<div className="flex flex-col justify-end">
+	<div className="flex flex-col justify-end max-md:hidden">
 		<div className="grid grid-cols-[auto_1fr] grid-rows-[auto_1fr] place-items-center gap-x-5 gap-y-2 md:gap-y-5 md:gap-x-10 pb-5">
 			<MapPin className="size-5 md:size-10" />
 
