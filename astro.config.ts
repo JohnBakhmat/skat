@@ -3,6 +3,7 @@ import { defineConfig } from "astro/config";
 import UnoCSS from "unocss/astro";
 
 import react from "@astrojs/react";
+import deno from "@deno/astro-adapter";
 
 // https://astro.build/config
 export default defineConfig({
@@ -10,4 +11,5 @@ export default defineConfig({
 	experimental: {
 		svg: true,
 	},
+	adapter: deno(),
 });
