@@ -11,17 +11,48 @@ import FriendCard from "./friend-card.astro";
 		</p>
 		<FriendCard
 			name="Gutor Production"
-			logo="/gutor.webp"
-			logoClass="h-8 md:h-16"
+			logo={{
+    			src:"/gutor.webp",
+    			class:"h-8 md:h-14",
+    			width:354,
+    			height:354
+			}}
 		/>
-		<FriendCard name="WOW technologies" logo="/wow.webp" logoClass="h-6 md:h-10" />
-		<FriendCard name="Mayd Production" logo="/mayd.webp" logoClass="h-8 md:h-14" />
+		<FriendCard name="WOW technologies" logo={{
+		src:"/wow.webp",
+		class:"h-6 md:h-10",
+		width:603,
+		height:159
+		}} />
+		<FriendCard name="Mayd Production"
+		logo={{
+			src:"/mayd.webp",
+			class:"h-8 md:h-14",
+			width:210,
+			height:152
+		}} />
+
 		<div class="max-md:hidden"></div>
 		<FriendCard
 			name="Simple decor"
-			logo="/simple-decor.webp"
-			logoClass="h-8 md:h-14"
+
+			logo={{
+				src:"/simple-decor.webp",
+				class:"h-8 md:h-14",
+				width:724,
+				height:320
+			}}
+
 		/>
-		<FriendCard name="SM Production" logo="/sm.webp" logoClass="h-8 md:h-12" />
+		<FriendCard name="SM Production"
+
+
+		logo={{
+						src:"/sm.webp",
+						class:"h-8 md:h-12",
+						width:564,
+						height:316
+					}}
+	 />
 	</div>
 </section>

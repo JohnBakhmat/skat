@@ -1,3 +1,7 @@
+---
+import { Image } from "astro:assets";
+---
+
 <section
 	class="min-h-screen max-w-screen grid grid-cols-1 place-items-center md:(gap-x-20 py-20 grid-cols-2) py-15"
 >
@@ -18,14 +22,18 @@
 	<div class="w-9/12 aspect-square grid grid-cols-2 grid-rows-2">
 		<div class="border-(2 white r-none) rounded-tl-full"></div>
 		<div class="border-(2 white) overflow-hidden">
-			<img
+			<Image
+			    width={1224}
+				height={964}
 				src="/alfa-conf-1.webp"
 				alt="alfc conf"
 				class="w-full h-full object-cover"
 			/>
 		</div>
 		<div class="border-(2 white) overflow-hidden rounded-full">
-			<img
+			<Image
+    			width={1632}
+    			height={1632}
 				src="/yandex-scale-1.webp"
 				alt="yandex scale"
 				class="w-full h-full object-cover"
