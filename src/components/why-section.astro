@@ -1,3 +1,6 @@
+---
+import WhyBlock from "./why-block";
+---
 <section class="min-h-screen w-full text-white grid place-items-center">
 	<div
 		class="w-full grid md:grid-(cols-[3fr_4fr] rows-1) grid-(cols-1) gap-y-10"
@@ -28,14 +31,9 @@
 
 		<div class="flex flex-col justify-center">
 			<div
-				class="grid grid-cols-[auto_1fr] items-center gap-y-5 gap-x-[42px] text-white text-[20px] md:text-[30px] leading-none font-extralight whitespace-pre-line"
+				class="relative grid grid-cols-[auto_1fr] items-center gap-y-5 gap-x-[42px] text-white text-[20px] md:text-[30px] leading-none font-extralight whitespace-pre-line"
 			>
-				<p class="text-[75px] md:text-[150px] font-logo">01</p>
-				<p>С нами можно быть спокойным за проект</p>
-				<p class="text-[75px] md:text-[150px] font-logo">02</p>
-				<p>{"Мы заряжаем своей\nэнергией всех вокруг"}</p>
-				<p class="text-[75px] md:text-[150px] font-logo">03</p>
-				<p>{"Мы знаем все течения\nи куда нужно плыть"}</p>
+    			<WhyBlock client:visible/>
 			</div>
 		</div>
 	</div>
