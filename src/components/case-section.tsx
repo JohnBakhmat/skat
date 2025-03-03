@@ -150,7 +150,10 @@ export function CaseSection() {
 								20<span className="text-accent">23</span>
 							</div>
 
-							<CaseImage src="/sportakiada-2.webp" className="max-md:hidden" />
+							<CaseImage
+								src="/sportakiada-2.webp"
+								className="max-md:hidden"
+							/>
 
 							<div className="max-md:order-3 max-md:col-span-2 max-md:max-h-[50vh] gap-5 grid grid-rows-[auto_auto] grid-cols-1 md:grid-rows-1 md:grid-cols-[2fr_1fr] md:gap-10">
 								<CaseImage
@@ -195,9 +198,15 @@ export function CaseSection() {
 								20<span className="text-accent">23</span>
 							</div>
 
-							<CaseImage src="/smartway-2.webp" className="max-md:hidden" />
+							<CaseImage
+								src="/smartway-2.webp"
+								className="max-md:hidden"
+							/>
 							<div className="max-md:order-3 max-md:col-span-2 max-md:max-h-[50vh] gap-5 grid grid-rows-[auto_auto] grid-cols-1 md:grid-rows-1 md:grid-cols-[2fr_1fr] md:gap-10">
-								<CaseImage src="/smartway-3.webp" className="max-md:hidden" />
+								<CaseImage
+									src="/smartway-3.webp"
+									className="max-md:hidden"
+								/>
 								<CaseImage
 									src="/smartway-4.webp"
 									imageClassName="object-[50%_25%]"
@@ -215,7 +224,11 @@ export function CaseSection() {
 									<div className="w-fit border-(1 white) p-(x-5 y-2) md:p-(x-10 y-4) rounded-full group md:text-5xl flex flex-row text-2xl">
 										<p>Кейсы</p>
 									</div>
-									<img src="/tbank.svg" alt="T-bank" className="w-10 md:w-15" />
+									<img
+										src="/tbank.svg"
+										alt="T-bank"
+										className="w-10 md:w-15"
+									/>
 								</div>
 
 								<div>
@@ -239,7 +252,10 @@ export function CaseSection() {
 								<span className="text-accent">23</span>
 							</div>
 
-							<CaseImage src="/it-katok-2.webp" className="max-md:hidden" />
+							<CaseImage
+								src="/it-katok-2.webp"
+								className="max-md:hidden"
+							/>
 
 							<div className="max-md:order-3 max-md:col-span-2 max-md:max-h-[50vh] gap-5 grid grid-rows-[auto_auto] grid-cols-1 md:grid-rows-1 md:grid-cols-[2fr_1fr] md:gap-10">
 								<CaseImage
@@ -289,7 +305,10 @@ export function CaseSection() {
 								20<span className="text-accent">22</span>
 							</div>
 
-							<CaseImage src="/yandex-scale-3.webp" className="max-md:hidden" />
+							<CaseImage
+								src="/yandex-scale-3.webp"
+								className="max-md:hidden"
+							/>
 							<div className="max-md:order-3 max-md:col-span-2 max-md:max-h-[50vh] gap-5 grid grid-rows-[auto_auto] grid-cols-1 md:grid-rows-1 md:grid-cols-[2fr_1fr] md:gap-10">
 								<CaseImage src="/yandex-scale-4.webp" />
 								<CaseImage
