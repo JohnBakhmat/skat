@@ -3,8 +3,17 @@
 :root {
 	--accent-color: #7c7aea;
 	--secondary-color: #b6b2d4;
+	--swiper-pagination-color: white;
+	--swiper-navigation-color: white;
+	--swiper-pagination-bullet-size: 12px;
+	--swiper-pagination-bullet-horizontal-gap: 6px;
 	@apply bg-[#3D24B2];
 }
+
+.swiper-pagination-bullet-active {
+	box-shadow: 0 0 0 3px #fff3;
+}
+
 .font-logo {
 	font-family: "Gruppo", serif;
 	font-weight: 400;
