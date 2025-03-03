@@ -19,7 +19,7 @@ export default function WhyItem({ idx, text, isActive, onHover }: Props) {
 			</p>
 			<p
 				data-active={!!isActive}
-				className="data-[active=true]:text-black"
+				className="data-[active=true]:text-black font-open-sans"
 			>
 				{text}
 			</p>

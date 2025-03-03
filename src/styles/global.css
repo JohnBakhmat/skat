@@ -32,6 +32,10 @@ body {
 	@apply font-open-sans m-0 size-full text-white select-none font-light px-2 md:px-10 snap-y snap-mandatory scroll-smooth;
 }
 
+* {
+	@apply font-open-sans;
+}
+
 body {
 	/* background-image: url("/background.png");
 	background-attachment: fixed;
