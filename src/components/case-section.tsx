@@ -15,7 +15,10 @@ export function CaseSection() {
 				modules={[Navigation, Pagination, Scrollbar, A11y]}
 				spaceBetween={50}
 				slidesPerView={1}
-				pagination={{ clickable: true, type: "bullets" }}
+				pagination={{
+					clickable: true,
+					type: "bullets",
+				}}
 				navigation
 			>
 				<SwiperSlide>
