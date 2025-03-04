@@ -7,9 +7,9 @@ import deno from "@deno/astro-adapter";
 
 // https://astro.build/config
 export default defineConfig({
-	integrations: [UnoCSS(), react()],
-	experimental: {
-		svg: true,
-	},
-	adapter: deno(),
+  integrations: [UnoCSS(), react()],
+  experimental: {
+    svg: true,
+  },
+  adapter: deno(),
 });
