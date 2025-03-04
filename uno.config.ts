@@ -17,10 +17,12 @@ export default defineConfig({
 		colors: {
 			accent: "var(--accent-color)",
 			secondary: "var(--secondary-color)",
+			whiteish: "var(--white-color)",
 		},
 		animation: {
 			keyframes: {
-				wiggle: "{0%,100% {transform:rotate(-5deg)} 50% {transform:rotate(5deg)}}",
+				wiggle:
+					"{0%,100% {transform:rotate(-5deg)} 50% {transform:rotate(5deg)}}",
 			},
 			durations: {
 				wiggle: "400ms",
