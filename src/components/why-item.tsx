@@ -10,7 +10,7 @@ export default function WhyItem({ idx, text, isActive, onHover }: Props) {
       onMouseOver={() => onHover?.()}
       onFocus={() => onHover?.()}
       data-active={!!isActive}
-      className="grid grid-cols-subgrid items-center col-span-2 group px-10 py-3 rounded-3xl transition-all ease-in-out data-[active=true]:bg-white"
+      className="grid grid-cols-subgrid items-center col-span-2 group px-10 py-3 rounded-3xl transition-all ease-in-out data-[active=true]:bg-whiteish"
     >
       <p
         data-active={!!isActive}
