@@ -7,7 +7,9 @@ export default function WhyBlock() {
 	const [isManual, setManual] = useState(false);
 	const isMobile = useIsMobile();
 
-	const topOffest = lastHovered * 175 + lastHovered * 20;
+	const height = 200;
+
+	const topOffest = lastHovered * height + lastHovered * 20;
 
 	// if not hovered for more than 100ms, reset
 
@@ -50,11 +52,6 @@ export default function WhyBlock() {
 				text={"Мы знаем все течения и куда \nнужно плыть"}
 				isActive={lastHovered === 2 && !isMobile}
 				onHover={() => handleHover(2)}
-			/>
-			<div
-				hidden={isMobile}
-				style={{ top: `${topOffest}px` }}
-				className="left-0 right-0 top-0 h-[175px] col-span-full transition-all duration-150 rounded-3xl bg-white absolute -z-20 row-span-full"
 			/>
 		</>
 	);
