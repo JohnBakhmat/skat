@@ -1,76 +1,77 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 :root {
-	--accent-color: #7c7aea;
-	--secondary-color: #b6b2d4;
-	--white-color: #f6f5ff;
-	--swiper-pagination-color: white;
-	--swiper-navigation-color: white;
-	--swiper-pagination-bullet-size: 12px;
-	--swiper-pagination-bullet-horizontal-gap: 6px;
-	@apply bg-[#3D24B2];
+  --accent-color: #7c7aea;
+  --secondary-color: #b6b2d4;
+  --white-color: #f6f5ff;
+  --swiper-pagination-color: white;
+  --swiper-navigation-color: white;
+  --swiper-pagination-bullet-size: 12px;
+  --swiper-pagination-bullet-horizontal-gap: 6px;
+  @apply bg-[#3d24b2];
 }
 
 .swiper-pagination-bullet-active {
-	box-shadow: 0 0 0 3px #fff3;
+  box-shadow: 0 0 0 3px #fff3;
 }
 
 .font-logo {
-	font-family: "Gruppo", serif;
-	font-weight: 400;
-	font-style: normal;
+  font-family: "Gruppo", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .font-open-sans {
-	font-family: "Open Sans", serif;
-	font-optical-sizing: auto;
-	line-height: 130%;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  line-height: 130%;
 }
 
 html,
 body {
-	font-family: "Open Sans", serif;
-	@apply font-open-sans m-0 size-full text-white select-none font-light px-2 md:px-10 snap-y snap-mandatory scroll-smooth;
+  font-family: "Open Sans", serif;
+  @apply font-open-sans m-0 size-full text-white select-none font-light px-2
+    md:px-10 snap-y snap-mandatory scroll-smooth;
 }
 
 * {
-	@apply font-open-sans;
+  @apply font-open-sans;
 }
 
 body {
-	/* background-image: url("/background.png");
-	background-attachment: fixed;
-	background-size: cover; */
+  /* background-image: url("/background.png");
+  background-attachment: fixed;
+  background-size: cover; */
 }
 
 .side-border::after {
-	content: "";
-	position: absolute;
-	inset: -30px;
-	aspect-ratio: 1;
-	border-radius: 100%;
-	background: transparent;
-	border: 2px solid var(--accent-color);
-	clip-path: polygon(100% 0, 66% 0, 66% 100%, 100% 100%);
+  content: "";
+  position: absolute;
+  inset: -30px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  background: transparent;
+  border: 2px solid var(--accent-color);
+  clip-path: polygon(100% 0, 66% 0, 66% 100%, 100% 100%);
 }
 .side-border {
-	@apply mr-[30px];
+  @apply mr-[30px];
 }
 
 .text-vertical {
-	writing-mode: vertical-lr;
+  writing-mode: vertical-lr;
 }
 
 @media (max-width: 768px) {
-	.side-border::after {
-		inset: -15px;
-	}
+  .side-border::after {
+    inset: -15px;
+  }
 
-	.text-vertical {
-		/* writing-mode: horizontal-tb; */
-	}
+  .text-vertical {
+    /* writing-mode: horizontal-tb; */
+  }
 }
 
 section {
-	@apply snap-center;
+  @apply snap-center;
 }
