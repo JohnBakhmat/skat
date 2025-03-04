@@ -3,7 +3,7 @@ import TeamCard from "./team-card.astro";
 ---
 
 <section class="min-h-screen w-full grid place-items-center" id="team">
-	<div class="grid md:(grid-cols-[52%_48%] gap-x-20) items-center">
+	<div class="grid lg:(grid-cols-[52%_48%] gap-x-20) items-center">
 		<div
 			class="bg-whiteish rounded-[46px] text-black grid grid-cols-2 h-fit py-6 md:py-12"
 		>
@@ -22,24 +22,19 @@ import TeamCard from "./team-card.astro";
 		<div class="max-md:text-center flex flex-col">
 			<div>
 				<p
-					class="font-logo text-[150px] md:text-[300px] leading-[100%]"
-				>
-					10+
+					class="font-logo text-[150px] lg:text-[200px] 2xl:text-[300px] leading-[100%]"
+				>10+
 				</p>
 				<p
-					class="text-[23px] md:text-[46px] font-extralight md:pr-20 whitespace-pre-line"
-				>
-					лет опыта в event-индустрии
-				</p>
+					class="text-[23px] lg:text-[32px]  md:text-[46px] font-extralight md:pr-20 whitespace-pre-line"
+				>{"лет опыта в event-индустрии"}</p>
 			</div>
 			<div>
 				<p
-					class="font-logo text-[150px] md:text-[300px] leading-[100%]"
-				>
-					100+
-				</p>
+					class="font-logo text-[150px] lg:text-[200px] 2xl:text-[300px] leading-[100%]"
+				>100+</p>
 				<p
-					class="text-[23px] md:text-[46px] font-extralight md:pr-20 whitespace-pre-line"
+					class="text-[23px] lg:text-[32px] 2xl:text-[46px] font-extralight md:pr-20 whitespace-pre-line"
 				>
 					{"реализованных проектов\nс бюджетом от 1 до 120 млн"}
 				</p>
