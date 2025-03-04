@@ -4,8 +4,8 @@
   --accent-color: #7c7aea;
   --secondary-color: #b6b2d4;
   --white-color: #f6f5ff;
-  --swiper-pagination-color: white;
-  --swiper-navigation-color: white;
+  --swiper-pagination-color: var(--white-color);
+  --swiper-navigation-color: var(--white-color);
   --swiper-pagination-bullet-size: 12px;
   --swiper-pagination-bullet-horizontal-gap: 6px;
   @apply bg-[#3d24b2];
@@ -40,8 +40,8 @@ body {
 
 body {
   /* background-image: url("/background.png");
-  background-attachment: fixed;
-  background-size: cover; */
+   background-attachment: fixed;
+   background-size: cover; */
 }
 
 .side-border::after {
