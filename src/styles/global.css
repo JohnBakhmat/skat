@@ -52,6 +52,9 @@ body {
 	border: 2px solid var(--accent-color);
 	clip-path: polygon(100% 0, 66% 0, 66% 100%, 100% 100%);
 }
+.side-border {
+	@apply mr-[30px];
+}
 
 .text-vertical {
 	writing-mode: vertical-lr;
