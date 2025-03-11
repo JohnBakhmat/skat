@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import "@unocss/reset/tailwind-compat.css";
 import { Image } from "astro:assets";
+import { SEO } from "astro-seo";
 ---
 
 <!doctype html>
@@ -21,6 +22,16 @@ import { Image } from "astro:assets";
 			rel="stylesheet"
 		/>
 		<meta name="generator" content={Astro.generator} />
+		<SEO
+			title="Skat. Event агентство"
+			openGraph={{
+				basic: {
+					title: "Skat. Event агентство",
+					type: "website",
+					image: "/og.avif",
+				},
+			}}
+		/>
 		<title>Skat. Event агенство</title>
 	</head>
 	<body>
