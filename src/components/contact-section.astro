@@ -2,6 +2,7 @@
 import GlobeIcon from "../assets/globe.svg";
 import MailIcon from "../assets/mail.svg";
 import PhoneIcon from "../assets/phone.svg";
+import UserIcon from "../assets/user.svg";
 ---
 
 <section class="min-h-screen w-full grid place-items-center" id="contact">
@@ -15,20 +16,23 @@ import PhoneIcon from "../assets/phone.svg";
 		<div
 			class="grid grid-cols-[auto_1fr] gap-7 underline decoration-2 underline-offset-[10px] items-center md:[&_.icon]:size-20 [&_.icon]:(size-15 grid place-items-center border-(2 [#6c5eb1]) rounded-full) [&_.icon>svg]:(size-8)"
 		>
+			
+			<div class="icon">
+				<UserIcon />
+			</div>
+			<a href="https://skat-project.ru" target="_blank">skat-project.ru</a
+			>
+
 			<div class="icon">
 				<PhoneIcon />
 			</div>
 			<a href="tel:+79151248730" target="_blank">+7 (915) 124 87 30</a>
+
 			<div class="icon">
 				<MailIcon />
 			</div>
 			<a href="mailto:silkin@skat-project.ru" target="_blank"
-				>silkin@skat-project.ru</a
-			>
-			<div class="icon">
-				<GlobeIcon />
-			</div>
-			<a href="https://skat-project.ru" target="_blank">skat-project.ru</a
+				>Silkin@skat-project.ru</a
 			>
 		</div>
 	</div>
